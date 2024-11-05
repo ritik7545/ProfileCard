@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.myCard{
+    background-color: rgb(107, 150, 150);
+    display:flex;
+    flex-direction: column;
+    position: relative;;
+    top: 150px;
+    margin: auto;
+    width: 350px;
+    height: 388px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.name{
+    padding: 50px;
+    margin-top: 35px;
+    font-family: emoji;
+}
+
+.info{
+    padding: 173px;
+    position: absolute;
+    background-color: rgb(3, 36, 36);
+    border-radius: 5px;
+    margin: 2px;
+    height: 37px
+}
+.hello{
+
+    position: relative;
+    left: 20px;
+}
+.bg{
+    position: absolute;
+    align-content: center;
+    top: 0.2px;
+    left: 0.1px;
+    background-color: blue;
+    width: 345px;
+    height: 100px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.info .logo-img{
+    background-color: rgb(125, 179, 24);
+    position: absolute;
+    height: 100px;
+    border-radius: 50%;
+    bottom: 245px;
+    left: 130px;
+}
+.logo-img img{
+    border-radius: 50%;
+    border: 2px solid rgb(3, 255, 3);
+    /* object-fit: cover; */
+}
+
+.informaton{
+    position: relative;
+    bottom: -155px;
+    display: flex;
+    justify-content: flex-end;
+    left: 100px;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+}
+
+
+.informaton #profession{
+    left: -55px;
+    position: relative;
+}
+.informaton #add{
+    left: 20px;
+    position: relative
+}
+
+
+.icon{
+    position: relative;
+    bottom: -170px;
+    display: flex;
+    justify-content: space-evenly;
+    right: -73px;
+    width: 165px;
+    
+}
+.icon a{
+    text-decoration: none;
+    color: rgb(255 255 255);
+    font-size: 20px;
+    background-color: rgb(4 24 255);
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 4px;
+    position: relative;
+}
+
+
+.btn{
+    display: flex;
+    position: absolute;
+    bottom: -215px;
+    padding: 0px;
+    cursor: pointer;
+    left: 85px;
+    color: rgb(255 255 255);
+    justify-content: space-evenly;
+    width: 150px;
+    height: 30px;
+    
+}
+
+.btn button {
+    background-color: blue;
+    color: beige;
+}
+
+.btn .btn1{
+    margin: 4px;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
